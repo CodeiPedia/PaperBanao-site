@@ -3,8 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PaperBanao — AI Question Paper Generator</title>
-<meta name="description" content="Generate custom question papers for RRB, SSC, UPSC, Banking and school exams in seconds — for teachers, coaching centres and exam aspirants.">
+<title>PaperBanao — AI Question Paper Generator for Teachers & Coaching Institutes</title>
+<meta name="description" content="Generate custom question papers for RRB, SSC, UPSC, Banking, and school exams in seconds. Upload a handwritten paper to digitize it, or build one from scratch — export to Word or PDF, ready to print.">
+<meta name="keywords" content="question paper generator, AI question paper, RRB paper generator, SSC question paper, exam paper maker, handwritten paper to digital, coaching institute software India">
+
+<!-- Open Graph / social preview -->
+<meta property="og:title" content="PaperBanao — AI Question Paper Generator">
+<meta property="og:description" content="Build custom question papers in seconds, or digitize a handwritten paper — export to Word or PDF.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://codeipedia.github.io/PaperBanao-site/">
+
+<!-- Structured data so Google understands what this site/product is -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PaperBanao",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Web",
+  "description": "AI-powered question paper generator for teachers, coaching institutes, and competitive exam aspirants (RRB, SSC, UPSC, Banking, school boards).",
+  "offers": {
+    "@type": "Offer",
+    "price": "99",
+    "priceCurrency": "INR",
+    "description": "Pro plan — unlimited question papers for 30 days"
+  }
+}
+</script>
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,38 +40,110 @@
         <a href="index.html" class="brand">Paper<span>Banao</span></a>
         <nav class="site-nav">
             <a href="index.html">Home</a>
+            <a href="index.html#features">Features</a>
             <a href="index.html#pricing">Pricing</a>
+            <a href="index.html#faq">FAQ</a>
             <a href="contact.html">Contact</a>
-            <a href="terms.html">Terms</a>
-            <a href="privacy.html">Privacy</a>
-            <a href="refund.html">Refunds</a>
         </nav>
     </div>
 </header>
 
+<!-- HERO -->
 <section class="hero">
     <div class="container">
-        <div class="eyebrow">Question Paper Generator</div>
+        <div class="eyebrow">AI Question Paper Generator</div>
         <h1>Build a full exam paper before your chai gets cold.</h1>
-        <p class="lead">PaperBanao uses AI to generate custom question papers — MCQs, fill-in-the-blanks, short and long answer — for RRB, SSC, UPSC, Banking, and school-level exams. Pick your subject, topics and marks; download a ready paper in Word or PDF.</p>
-        <a href="https://paperbanao-web-mpv5z8yturtkx25dduvfck.streamlit.app/" class="btn">Open PaperBanao</a>
-        <a href="index.html#pricing" class="btn secondary">See pricing</a>
+        <p class="lead">PaperBanao uses AI to generate custom question papers — MCQs, fill-in-the-blanks, short and long answer — for RRB, SSC, UPSC, Banking, and school-level exams. Or upload a handwritten paper and we'll digitize it into a clean, printable document. Word, PDF, and your institute's letterhead — done in minutes, not hours.</p>
+        <a href="https://paperbanao-web-mpv5z8yturtkx25dduvfck.streamlit.app/" class="btn">Try PaperBanao Free</a>
+        <a href="index.html#pricing" class="btn secondary">See Pricing</a>
     </div>
 </section>
 
+<!-- TRUST / STATS BAR -->
+<section class="stats-bar">
+    <div class="container">
+        <div class="stats-grid">
+            <div>
+                <div class="stat-num">5 Free</div>
+                <div class="stat-label">Papers to try, no card needed</div>
+            </div>
+            <div>
+                <div class="stat-num">Hindi + English</div>
+                <div class="stat-label">Bilingual paper generation</div>
+            </div>
+            <div>
+                <div class="stat-num">Word · PDF</div>
+                <div class="stat-label">Print-ready in one click</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+    <div class="container">
+        <h2>Everything a coaching institute actually needs</h2>
+        <p style="color:var(--ink-soft); max-width:60ch;">Not just a chatbot with a prompt box — a purpose-built tool for exam paper creation.</p>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="f-icon">📝</div>
+                <h3>Custom Paper Generation</h3>
+                <p>Pick subject, class, topics, question types (MCQ, fill-in-the-blank, true/false, short & long answer) and exact marks distribution. The AI builds the full paper to spec.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">📷</div>
+                <h3>Handwritten → Digital</h3>
+                <p>Photograph a handwritten or scanned paper and PaperBanao transcribes it faithfully into a clean, formatted digital document — no retyping.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">🔄</div>
+                <h3>Edit & Regenerate</h3>
+                <p>Don't like a question? Regenerate just that one — the AI keeps it on-topic and updates the matching answer key entry automatically.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">🏫</div>
+                <h3>Your Letterhead, Saved</h3>
+                <p>Save your institute name, address, logo, and language preference once — every paper after that is auto-branded, no re-typing.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">🌐</div>
+                <h3>Hindi, English, Bilingual</h3>
+                <p>Generate papers in the language your students actually study in, with simple Hindi phrasing and English technical terms alongside.</p>
+            </div>
+            <div class="feature-card">
+                <div class="f-icon">☁️</div>
+                <h3>Cloud History</h3>
+                <p>Every paper you generate is saved to your account — come back anytime and re-download it as Word or PDF.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOW IT WORKS -->
 <section class="alt">
     <div class="container">
-        <h2>What you get</h2>
-        <ul class="bubble-list">
-            <li><span class="bubble filled"></span> Custom papers by subject, class, topic and marks distribution</li>
-            <li><span class="bubble filled"></span> MCQ, fill-in-the-blank, true/false, short and long answer questions</li>
-            <li><span class="bubble filled"></span> Generate straight from a syllabus PDF or your own topic list</li>
-            <li><span class="bubble filled"></span> Answer keys included, Hindi and English supported</li>
-            <li><span class="bubble filled"></span> Export to a formatted Word document, ready to print</li>
-        </ul>
+        <h2>How it works</h2>
+        <div class="steps-row">
+            <div class="step-item">
+                <div class="step-num">1</div>
+                <h3>Tell it what you need</h3>
+                <p>Subject, class, topics, question types and marks — or upload a handwritten paper photo instead.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-num">2</div>
+                <h3>Review & tweak</h3>
+                <p>Read through the generated paper, edit any question by hand, or regenerate individual questions you don't like.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-num">3</div>
+                <h3>Download & print</h3>
+                <p>Export as a formatted Word document or PDF with your institute's letterhead, ready to print or share.</p>
+            </div>
+        </div>
     </div>
 </section>
 
+<!-- PRICING -->
 <section id="pricing">
     <div class="container">
         <h2>Pricing</h2>
@@ -55,13 +153,92 @@
                 <div class="tag">Free Trial</div>
                 <div class="price">₹0</div>
                 <p style="color:var(--ink-soft); margin-top:14px;">5 question papers to try PaperBanao, no card required.</p>
+                <ul class="bubble-list">
+                    <li><span class="bubble filled"></span> Full paper generation</li>
+                    <li><span class="bubble filled"></span> Handwritten digitization</li>
+                    <li><span class="bubble filled"></span> Word & PDF export</li>
+                </ul>
             </div>
             <div class="plan-card pro">
                 <div class="tag">Pro — 30 Days</div>
                 <div class="price">₹99 <small>/ 30 days</small></div>
                 <p style="color:var(--ink-soft); margin-top:14px;">Unlimited question papers for 30 days from purchase. One-time payment — renew manually whenever you like.</p>
+                <ul class="bubble-list">
+                    <li><span class="bubble filled"></span> Unlimited paper generation</li>
+                    <li><span class="bubble filled"></span> Unlimited digitization</li>
+                    <li><span class="bubble filled"></span> Saved letterhead & branding</li>
+                    <li><span class="bubble filled"></span> Priority-speed generation</li>
+                </ul>
             </div>
         </div>
+        <div style="text-align:center; margin-top:30px;">
+            <a href="https://paperbanao-web-mpv5z8yturtkx25dduvfck.streamlit.app/" class="btn">Get Started</a>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<!--
+  ⚠️ PLACEHOLDER CONTENT — replace before this goes live.
+  These are written to show the intended tone/format only. Swap in real
+  quotes from actual teachers/institutes who've used PaperBanao, with
+  their real name and permission to use it. Do not publish invented
+  quotes attributed as if real — replace every card below.
+-->
+<section class="alt">
+    <div class="container">
+        <h2>What teachers are saying</h2>
+        <p style="color:var(--ink-soft)">[PLACEHOLDER — replace with real feedback before publishing]</p>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="quote">Used to spend my whole Sunday setting mock papers for RRB batches. Now it's done in the time it takes to have chai.</div>
+                <div class="attribution"><strong>[Replace: Teacher Name]</strong>[Replace: Subject / Institute, City]</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">Uploaded an old handwritten paper from our files and it came back perfectly typed with our institute's letterhead. Saved hours of retyping.</div>
+                <div class="attribution"><strong>[Replace: Teacher Name]</strong>[Replace: Subject / Institute, City]</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="quote">My students needed Hindi-medium papers and most tools only do English well. This actually gets the phrasing right.</div>
+                <div class="attribution"><strong>[Replace: Teacher Name]</strong>[Replace: Subject / Institute, City]</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+    <div class="container">
+        <h2>Frequently asked questions</h2>
+        <details class="faq-item">
+            <summary>What exams does PaperBanao support?</summary>
+            <p>RRB (ALP, NTPC, Group D), SSC (CGL, CHSL), UPSC, Banking exams, and school-level papers (BSEB, CBSE, ICSE patterns). You control the subject and topics either way.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Do I need to know how to use AI tools?</summary>
+            <p>No. You fill in a simple form (subject, class, topics, question counts) or upload a photo — PaperBanao handles the rest.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Can I edit the questions after they're generated?</summary>
+            <p>Yes. Every question is editable by hand, and you can regenerate any single question you don't like without redoing the whole paper.</p>
+        </details>
+        <details class="faq-item">
+            <summary>What if I'm not satisfied after paying for Pro?</summary>
+            <p>See our <a href="refund.html">Cancellation & Refund Policy</a> — refunds are available in specific cases, including technical errors.</p>
+        </details>
+        <details class="faq-item">
+            <summary>Does the Pro plan auto-renew?</summary>
+            <p>No. It's a one-time 30-day purchase. You choose if and when to buy another 30-day period.</p>
+        </details>
+    </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="cta-band">
+    <div class="container">
+        <h2>Stop spending your Sunday on question papers.</h2>
+        <p>Try PaperBanao free — 5 papers, no card required.</p>
+        <a href="https://paperbanao-web-mpv5z8yturtkx25dduvfck.streamlit.app/" class="btn">Try PaperBanao Free</a>
     </div>
 </section>
 
